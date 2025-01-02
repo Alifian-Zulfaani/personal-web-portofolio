@@ -21,7 +21,7 @@ module.exports = {
         primary: "#2545d0",
         primaryDark: "#4377ee",
         lightGreen: "#4377ee",
-        slideGreen: "#2439a9",
+        slideGreen: "#0388fc",
       },
       animation: {
         "spin-slow": "spin 8s linear infinite",

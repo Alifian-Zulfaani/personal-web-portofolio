@@ -12,7 +12,7 @@ const Logo = () => {
         className="flex items-center justify-center rounded-full w-16 h-18  bg-dark  text-white dark:border-1 dark:border-solid dark:border-dark"
       >
         <img
-          src="/NexTemp-logo.png"
+          src="/AZ-logo.png"
           alt="Logo"
           className="w-full h-full object-contain rounded-full w-10 h-10 py-2 px-2"
         />

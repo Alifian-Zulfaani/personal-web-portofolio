@@ -58,21 +58,21 @@ const Experience = () => {
 
         <ul className="w-full flex flex-col items-start justify-between ml-4 xs:ml-2">
           <Details
-            position="Developer"
-            company="Stellar Innovations"
-            time="2020 - 2024"
-            address="200 Innovations st"
-            companyLink="https://github.com/lilxyzz/clay-theme"
-            work="At Stellar Innovations, I serve as a web developer, where I play a crucial role in designing and implementing cutting-edge web solutions. My responsibilities include developing responsive and high-performance websites and applications using technologies such as HTML, CSS, JavaScript, React, and Node.js. I collaborate closely with cross-functional teams to ensure our projects meet the highest standards of functionality and user experience. One of my key achievements at Stellar Innovations has been leading the development of a comprehensive e-commerce platform that significantly enhanced our client's online presence and sales. My work is driven by a passion for continuous learning and innovation, always striving to push the boundaries of what's possible in web development."
+            position="Frontend Developer"
+            company="Interdisciplinary Scientific Research"
+            time="March - December 2024"
+            address="Sleman, Yogyakarta"
+            companyLink="https://ukm-isr.kemahasiswaan.upnyk.ac.id/"
+            work="At ISR, I worked as a frontend developer, where I was responsible for designing and developing a CMS-based profile website tailored to the needs of a small to medium-sized enterprise. My role involved creating responsive and high-performance web solutions using Laravel Framework, ensuring an intuitive user experience and seamless functionality. I collaborated closely with the client and cross-functional teams to gather requirements and deliver a platform that effectively showcased the community's profile. One of my key achievements during this project was optimizing the website's structure to enhance usability and scalability, reflecting my commitment to delivering innovative and impactful web solutions."
           />
 
           <Details
-            position="Rad Tester"
-            company="Vault Technologies"
-            time="2018 - 2020"
-            address="404 Tech st"
-            companyLink="https://github.com/lilxyzz/holo-theme"
-            work="At Vault Technologies, I worked as a RAD (Rapid Application Development) Tester, where I was responsible for ensuring the quality and functionality of our software applications during the development process. My role involved designing and executing test plans, identifying and documenting bugs, and working closely with developers to resolve issues quickly. This position required a deep understanding of the software development lifecycle and a keen eye for detail to ensure our applications met the highest standards of performance and reliability. My contributions at Vault Technologies helped streamline our development processes and significantly improved the overall quality of our software products."
+            position="Fullstack Developer"
+            company="RSU Mitra Paramedika"
+            time="July - September 2023"
+            address="Sleman, Yogyakarta"
+            companyLink="https://www.instagram.com/rsumipayk/"
+            work="At RSU Mitra Paramedika, I worked as a full-stack developer, where I developed a Hospital Management Information System (HMIS) to develop web-based application of medical equipment and drug. Using PHP and JavaScript, I created a seamless integration between front-end interfaces and back-end systems, ensuring an intuitive and efficient platform for hospital staff. Collaborating closely with healthcare professionals, I implemented features such as inventory tracking, real-time data reporting, and automated stock notifications, which significantly improved operational accuracy and efficiency within the hospital."
           />
         </ul>
       </div>

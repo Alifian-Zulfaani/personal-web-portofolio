@@ -7,8 +7,9 @@ import Link from "next/link";
 import { useRef } from "react";
 import { HireMe2 } from "@/components/HireMe2";
 
-import proj1 from "../../public/images/projects/clay-theme.png";
-import loading from "../../public/images/articles/GTA6-VICE.gif";
+import proj1 from "../../public/images/projects/isr.png";
+import proj2 from "../../public/images/projects/zoejeton.png";
+import loading from "../../public/images/articles/hacker.gif";
 
 import TransitionEffect from "@/components/TransitionEffect";
 import { motion, useMotionValue } from "framer-motion";
@@ -165,7 +166,7 @@ lg:p-8 xs:rounded-2xl  xs:rounded-br-3xl xs:p-4
   );
 };
 
-const Project = ({ title, type, img, link, tools }) => {
+const Project = ({ title, type, img, link, github, tools }) => {
   return (
     <article
       className="relative flex w-full flex-col items-center justify-center rounded-2xl  rounded-br-2xl 
@@ -207,7 +208,15 @@ const Project = ({ title, type, img, link, tools }) => {
             {title}
           </h2>
         </Link>
-        <div className="flex w-full items-center  justify-between">
+        <div className="flex w-full items-center gap-4">
+          <Link
+            href={github}
+            target={"_blank"}
+            className="w-10"
+            aria-label="github link"
+          >
+            <GithubIcon />
+          </Link>
           <Link
             href={link}
             className="rounded-lg
@@ -231,7 +240,7 @@ export default function Projects() {
   return (
     <>
       <Head>
-        <title>Projects | By NexTemp</title>
+        <title>Projects | By Alifian Zulfaani</title>
         <meta
           name="description"
           content="NexTemp, A open-source portfolio theme built with Nextjs"
@@ -251,16 +260,27 @@ export default function Projects() {
             <div className="col-span-12">
               <FeaturedProject
                 type="Design & Development"
-                tools="HTML | CSS | JavaScript | Gatsby"
-                title="Clay - Gatsby Theme"
-                summary="Image-centric Gatsby theme for publishers, portfolio, photographers blogs and more."
+                tools="PHP | HTML | Tailwind CSS | Laravel"
+                title="ISR - Profile Website"
+                summary="Profile website of Interdisciplinary Scientific Research at UPN Veteran Yogyakarta"
                 img={proj1}
-                date="2023"
-                link="/projects/clay-gatsby-theme"
-                github="https://travislord.xyz/projects/clay-gatsby-theme"
+                date="2024"
+                link="/projects/isr"
+                github="https://github.com/jfraska/ISR/tree/master"
               />
             </div>
             <div className="col-span-6 sm:col-span-12">
+              <Project
+                type="Design & Development"
+                tools="HTML | Tailwind CSS | JavaScript | Nextjs | Laravel"
+                title="Zoejeton - Digital Invitation"
+                img={proj2}
+                date="2024"
+                link="/projects/zoejeton"
+                github="https://github.com/jfraska/zoejeton-fe"
+              />
+            </div>
+            {/* <div className="col-span-6 sm:col-span-12">
               <Project
                 type="Design & Development"
                 tools="HTML | CSS | JavaScript | Gatsby"
@@ -270,18 +290,7 @@ export default function Projects() {
                 link="/projects/clay-gatsby-theme"
                 github="https://travislord.xyz/projects/clay-gatsby-theme"
               />
-            </div>
-            <div className="col-span-6 sm:col-span-12">
-              <Project
-                type="Design & Development"
-                tools="HTML | CSS | JavaScript | Gatsby"
-                title="Clay - Gatsby Theme"
-                img={proj1}
-                date="2023"
-                link="/projects/clay-gatsby-theme"
-                github="https://travislord.xyz/projects/clay-gatsby-theme"
-              />
-            </div>
+            </div> */}
           </div>
 
           <div>
@@ -291,7 +300,7 @@ export default function Projects() {
                 img={loading}
                 time="1 min read"
                 date=""
-                link="https://github.com/lilxyzz/"
+                link="https://www.instagram.com/alifian.zulfaani"
               />
             </ul>
 
