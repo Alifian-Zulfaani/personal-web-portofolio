@@ -5,7 +5,7 @@ import Head from "next/head";
 import Image from "next/image";
 import Link from "next/link";
 import TransitionEffect from "@/components/TransitionEffect";
-import profilePic from "../../public/images/profile/me1.jpg";
+import profilePic from "../../public/images/profile/me1.JPG";
 
 export default function Home() {
   return (

@@ -7,7 +7,7 @@ import Link from "next/link";
 import { useRef } from "react";
 import { HireMe2 } from "@/components/HireMe2";
 
-import proj1 from "../../public/images/projects/isr.png";
+import proj1 from "../../public/images/projects/isr.PNG";
 import proj2 from "../../public/images/projects/zoejeton.png";
 import loading from "../../public/images/articles/hacker.gif";
 

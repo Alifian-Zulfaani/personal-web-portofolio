@@ -9,7 +9,7 @@ import TransitionEffect from "@/components/TransitionEffect";
 import { GithubIcon } from "@/components/Icons";
 import { DevIcon } from "@/components/Icons";
 
-import proj1 from "/public/images/projects/isr.png";
+import proj1 from "/public/images/projects/isr.PNG";
 
 function AnimatedNumberFramerMotion({ value }) {
   const ref = useRef(null);
